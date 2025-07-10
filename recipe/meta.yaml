@@ -1,5 +1,5 @@
 {% set name = "ufolib2" %}
-{% set version = "0.17.1" %}
+{% set version = "0.18.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f6ab3171ff20615bb81c888faae1d871566bd14de6bdc94cc8f3971f6377bbd0
+  sha256: 7de0efcc361c573f2537ee7ceabdb3bc64b19b61304cfa25e828caa7db8ae1a4
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
