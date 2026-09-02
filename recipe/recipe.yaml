@@ -27,6 +27,7 @@ requirements:
     - fonttools >=4.0.0
     - fs
     - python >=${{ python_min }}
+    - setuptools <80
 
 tests:
   - python:
