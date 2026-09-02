@@ -21,7 +21,7 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    - setuptools
+    - setuptools <80
   run:
     - attrs >=20.1.0
     - fonttools >=4.0.0
