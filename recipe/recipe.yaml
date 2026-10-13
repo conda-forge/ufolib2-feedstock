@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ufolib2
-  version: "0.19.0"
+  version: "0.19.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: f0544f3a91de7b017473f4859f5be8767f0fb9b3ce15b6d08c72a24015c7b06b
+  sha256: febb497364813092b7692e5453e763b4b2df4909fc87ae54a2dcc4eb0419c8a4
 
 build:
   number: 0
